@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+header h1 {
+	transition: .1s ease-in;
+	border-bottom: 1px solid black;
+}
+
+header button {
+	margin-top: 1rem;
+}
+
+.sharks-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.shark-container {
+	width: 300px;
+	height: 150px;
+	padding: 1rem;
+	margin: 1rem;
+	border: 1px solid black;
+}
+
+.shark-container h3 {
+	border-bottom: 1px solid black;
+	margin-bottom: 1rem;
+}
+
+.shark-container p {
+	font-size: small;
+	color: rgb(151, 151, 151);
+}
+
+.shark-container button {
+	margin-top: 1rem;
+}
+
+.forms-container {
+	display: flex;
+	justify-content: center;
+}
+
+.form-container {
+	width: 400px;
+	height: 300px;
+	display: flex;
+	padding: 1rem;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid black;
+	margin: 1rem;
+}
+
+.form-container input[type="text"], .form-container input[type="password"]  {
+	padding: 12px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+button {
+	border: none;
+	width: 150px;
+	padding: 12px;
+	background-color: white;
+	border: 1px solid black;
+	transition: .1s ease-in;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: 6px 6px 0 0;
+}

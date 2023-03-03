@@ -1,0 +1,27 @@
+##################################################################################
+## the file contains HTTP requests for the Shark resource                       ##
+##################################################################################
+
+### get all sharks ###
+GET http://localhost:3333/api/sharks HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkV0aGVyQGdtYWlsLmNvbSIsImlhdCI6MTY3Nzg3NjUxNiwiZXhwIjoxNjc3OTYyOTE2fQ.x14x4m1stKcrRFgucyHPi0xNcXVdxSHfYyfp4syAzLU
+
+### create a new shark ###
+POST http://localhost:3333/api/sharks HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkV0aGVyQGdtYWlsLmNvbSIsImlhdCI6MTY3Nzg3NjUxNiwiZXhwIjoxNjc3OTYyOTE2fQ.x14x4m1stKcrRFgucyHPi0xNcXVdxSHfYyfp4syAzLU
+Content-Type: application/json
+
+{
+    "name": "Ether"
+}
+
+### update an exisitng shark ###
+PUT http://localhost:3333/api/sharks/82bb683b-3288-4fe9-96b5-5c39ace4a631 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "New Ether"
+}
+
+### delete and existing shark ###
+DELETE http://localhost:3333/api/sharks/e9d6177a-8b8d-47a3-b3b9-56db66d4b061 HTTP/1.1
