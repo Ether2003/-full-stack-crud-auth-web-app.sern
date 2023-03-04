@@ -7,6 +7,6 @@
 
 ### About:
 this repository contains a full-stack applicaiton that implements:
-- preforming CRUD operations against a database base model 
+- CRUD operations against a database base model 
 - user registration & authentication
 - managing server responses & client request with a RESTful API
