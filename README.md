@@ -5,7 +5,6 @@
 [![Node.js](https://custom-icon-badges.demolab.com/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 <hr></hr>
 
-### About:
 this repository contains a full-stack applicaiton that implements:
 - CRUD operations against a database base model 
 - user registration & authentication
